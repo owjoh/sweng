@@ -20,10 +20,14 @@ public class BinaryTree {
             return node;
         }
 
-        findLca(node.left,node1, node2);
-        findLca(node.right, node1, node2);
+        Node left = findLca(node.left,node1, node2);
+        Node right = findLca(node.right, node1, node2);
 
-        return null;
+        if(left != null && right != null) {
+            return node;
+        }
+
+        return (left != null) ? left : right;
     }
 
     public static void main(String args[]) {
@@ -34,6 +38,7 @@ public class BinaryTree {
         tree.root.left.right = new Node(5);
         tree.root.left.left.left = new Node(6);
         tree.root.left.left.right = new Node(7);
+        System.out.println(tree.lca(7,5).data);
 
     }
 }
