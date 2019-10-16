@@ -27,7 +27,7 @@ class DAGTest {
     @Test
     void v() {
         DAG dag = new DAG(100);
-        assertTrue(dag.V == 100);
+        assertTrue(dag.V() == 100);
     }
 
     @Test
@@ -40,7 +40,7 @@ class DAGTest {
         dag.addEdge(6,5);
         dag.addEdge(5,4);
         dag.addEdge(4,1);
-        assertTrue(dag.E == 7);
+        assertTrue(dag.E() == 7);
     }
 
     @Test
@@ -112,7 +112,7 @@ class DAGTest {
         dag.addEdge(6,5);
         dag.addEdge(5,4);
         dag.addEdge(4,1);
-        int lca = dag.findLCA(1,2);
+        int lca = dag.findLCA(2,2);
         assertEquals(2,lca);
     }
 }
