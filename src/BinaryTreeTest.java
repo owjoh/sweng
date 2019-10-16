@@ -31,4 +31,6 @@ class BinaryTreeTest {
         assertTrue(tree.lca(0, 2) == root);
         assertTrue(tree.lca(6, 5) == tree.root.left);
     }
+
+
 }

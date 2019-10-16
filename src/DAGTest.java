@@ -6,7 +6,7 @@ class DAGTest {
 
     @Test
     void testNullTree() {
-        
+
     }
 
     @Test
@@ -24,4 +24,35 @@ class DAGTest {
 
     }
 
+    @Test
+    void v() {
+    }
+
+    @Test
+    void e() {
+    }
+
+    @Test
+    void addEdge() {
+    }
+
+    @Test
+    void removeEdge() {
+    }
+
+    @Test
+    void indegree() {
+    }
+
+    @Test
+    void adj() {
+    }
+
+    @Test
+    void hasCycle() {
+    }
+
+    @Test
+    void findLCA() {
+    }
 }
