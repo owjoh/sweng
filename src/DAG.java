@@ -83,11 +83,11 @@ public class DAG{
         validateVertex(v);
         validateVertex(w);
 //        hasCycle();
-        if(E>0 && !hasCycle){
+        if(E>0){
             return LCAUtil(v,w);
         }
         else{
-            throw new IllegalArgumentException("This graph is not an acyclic graph.");
+            throw new IllegalArgumentException("No");
         }
     }
 
