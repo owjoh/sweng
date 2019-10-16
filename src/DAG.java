@@ -1,11 +1,11 @@
 public class DAG{
-    private int V;//# of vertices in graph
-    private int E;//# of edges in graph
-    private int[][] adj; //adjacency list for vertex v - changed to 2D array
-    private int[] outdegree;//outdegree of vertex v
-    private int[] indegree; // indegree of vertex v
-    private int[] visited;  //vertices that have been visited
-    private boolean hasCycle;
+    public int V;//# of vertices in graph
+    public int E;//# of edges in graph
+    public int[][] adj; //adjacency list for vertex v - changed to 2D array
+    public int[] outdegree;//outdegree of vertex v
+    public int[] indegree; // indegree of vertex v
+    public int[] visited;  //vertices that have been visited
+    public boolean hasCycle;
 
 
     //constructor to initialize and empty graph with size V
@@ -50,15 +50,6 @@ public class DAG{
         E++;
     }
 
-    //Removes an edge from v to w
-    public void removeEdge(int v, int w){
-        validateVertex(v);
-        validateVertex(w);
-        adj[v][w]=0;
-        indegree[w]--;
-        outdegree[v]--;
-        E--;
-    }
 
     //returns the number of directed edges out of vertex v
     public int outdegree(int v){
@@ -86,31 +77,12 @@ public class DAG{
         return temp;
     }
 
-    //returns true if the graph contains acycle, else false
-    public boolean hasCycle(){
-        hasCycle=false;
-        int count = 0;
-        for(int i =0;i<V;i++){
-            visited[count]=i;
-            for(int j = 0; j<V;j++){
-                for(int k=0;k<V;k++){
-                    if(visited[k]==j && adj[i][j]==1){
-                        hasCycle=true;
-                        return hasCycle;
-                    }
-                }
-            }
-            count++;
-        }
-        return hasCycle;
-    }
-
 
     //This public function is used to find the lowest commond ancestor in a directed acyclic graph
     public int findLCA(int v, int w){
         validateVertex(v);
         validateVertex(w);
-        hasCycle();
+//        hasCycle();
         if(E>0 && !hasCycle){
             return LCAUtil(v,w);
         }
