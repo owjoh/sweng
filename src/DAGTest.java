@@ -5,23 +5,41 @@ import static org.junit.jupiter.api.Assertions.*;
 class DAGTest {
 
     @Test
-    void testNullTree() {
-
+    void testEmptyTree() {
+        DAG dag = new DAG(0);
+        assertEquals(-1,dag.findLCA(1,2));
     }
 
     @Test
     void testOneNodeTree() {
-
+        DAG dag = new DAG(1);
+        assertEquals(-1,dag.findLCA(0,0));
     }
 
     @Test
     void testLcaOnTheSameNode() {
-
+        DAG dag = new DAG(7);
+        dag.addEdge(6,3);
+        dag.addEdge(3,2);
+        dag.addEdge(2,1);
+        dag.addEdge(1,0);
+        dag.addEdge(6,5);
+        dag.addEdge(5,4);
+        dag.addEdge(4,1);
+        assertEquals(5,dag.findLCA(5,5));
     }
 
     @Test
     void testNodeThatDoesNotExist() {
-
+        DAG dag = new DAG(7);
+        dag.addEdge(6,3);
+        dag.addEdge(3,2);
+        dag.addEdge(2,1);
+        dag.addEdge(1,0);
+        dag.addEdge(6,5);
+        dag.addEdge(5,4);
+        dag.addEdge(4,1);
+        assertEquals(-1,dag.findLCA(8,5));
     }
 
     @Test
@@ -94,9 +112,6 @@ class DAGTest {
         dag.addEdge(0,3);
         int[] expected = {1,2,3};
         int[] result = dag.adj(0);
-        if(result.length != expected.length) {
-            fail();
-        }
         for(int i = 0; i < result.length; i++) {
             assertEquals(expected[i], result[i]);
         }
@@ -114,5 +129,7 @@ class DAGTest {
         dag.addEdge(4,1);
         int lca = dag.findLCA(2,2);
         assertEquals(2,lca);
+        //Not working
+        assertEquals(-1,dag.findLCA(2,3));
     }
 }
