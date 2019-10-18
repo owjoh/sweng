@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/DAGTest.java" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="71d4e168-3dc1-4feb-bc52-cf22616dd93c" name="Default Changelist" comment="" />
+    <list default="true" id="71d4e168-3dc1-4feb-bc52-cf22616dd93c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweng/DAGTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweng/DAGTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAGTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAGTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,12 +18,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/lca$DAGTest.ic" NAME="DAGTest Coverage Results" MODIFIED="1571400522476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/lca$BinaryTreeTest.ic" NAME="BinaryTreeTest Coverage Results" MODIFIED="1570116078552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/lca$BinaryTreeTest_testNullTree.ic" NAME="BinaryTreeTest.testNullTree Coverage Results" MODIFIED="1570101591040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/lca$BinaryTreeTest_testNodePredecessor.ic" NAME="BinaryTreeTest.testNodePredecessor Coverage Results" MODIFIED="1570115483515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="348" />
+    <option name="myElementSize" value="351" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -35,20 +44,26 @@
     <session id="-498204043">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
-          <entry key="XML" value="1" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1212" />
-          <entry key="PLAIN_TEXT" value="214" />
+          <entry key="JAVA" value="2500" />
+          <entry key="PLAIN_TEXT" value="420" />
         </counts>
       </usages-collector>
     </session>
@@ -58,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            <state relative-caret-position="184">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -67,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="23">
+              <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -76,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            <state relative-caret-position="-27">
+              <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,9 +100,31 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DAG.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="893">
+              <caret line="129" column="29" selection-start-line="129" selection-start-column="29" selection-end-line="129" selection-end-column="29" />
+              <folding>
+                <element signature="e#1329#1330#0" expanded="true" />
+                <element signature="e#1353#1354#0" expanded="true" />
+                <element signature="e#1411#1412#0" expanded="true" />
+                <element signature="e#1435#1436#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/DAGTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="132" column="42" selection-start-line="132" selection-start-column="42" selection-end-line="132" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -95,9 +132,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -110,6 +147,8 @@
         <option value="$PROJECT_DIR$/src/Node.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/BinaryTreeTest.java" />
+        <option value="$PROJECT_DIR$/src/DAG.java" />
+        <option value="$PROJECT_DIR$/src/DAGTest.java" />
       </list>
     </option>
   </component>
@@ -126,9 +165,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="405" />
-    <option name="y" value="-27" />
-    <option name="width" value="974" />
+    <option name="x" value="386" />
+    <option name="y" value="-17" />
+    <option name="width" value="1075" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -167,7 +206,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570116076552" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571401451310" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -196,49 +235,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BinaryTreeTest">
-    <configuration name="BinaryTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DAGTest.findLCA">
+    <configuration name="DAGTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sweng" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BinaryTreeTest" />
+      <option name="MAIN_CLASS_NAME" value="DAGTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeTest.lca" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DAGTest.findLCA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sweng" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BinaryTreeTest" />
-      <option name="METHOD_NAME" value="lca" />
+      <option name="MAIN_CLASS_NAME" value="DAGTest" />
+      <option name="METHOD_NAME" value="findLCA" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeTest.testNodePredecessor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DAGTest.testLcaOnTheSameNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sweng" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BinaryTreeTest" />
-      <option name="METHOD_NAME" value="testNodePredecessor" />
+      <option name="MAIN_CLASS_NAME" value="DAGTest" />
+      <option name="METHOD_NAME" value="testLcaOnTheSameNode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeTest.testNullTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DAGTest.testNodeThatDoesNotExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sweng" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BinaryTreeTest" />
-      <option name="METHOD_NAME" value="testNullTree" />
+      <option name="MAIN_CLASS_NAME" value="DAGTest" />
+      <option name="METHOD_NAME" value="testNodeThatDoesNotExist" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeTest.testOneNodeTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DAGTest.testOneNodeTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sweng" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BinaryTreeTest" />
+      <option name="MAIN_CLASS_NAME" value="DAGTest" />
       <option name="METHOD_NAME" value="testOneNodeTree" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -246,19 +285,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.BinaryTreeTest" />
-      <item itemvalue="JUnit.BinaryTreeTest.lca" />
-      <item itemvalue="JUnit.BinaryTreeTest.testOneNodeTree" />
-      <item itemvalue="JUnit.BinaryTreeTest.testNullTree" />
-      <item itemvalue="JUnit.BinaryTreeTest.testNodePredecessor" />
+      <item itemvalue="JUnit.DAGTest.testOneNodeTree" />
+      <item itemvalue="JUnit.DAGTest.testLcaOnTheSameNode" />
+      <item itemvalue="JUnit.DAGTest.testNodeThatDoesNotExist" />
+      <item itemvalue="JUnit.DAGTest" />
+      <item itemvalue="JUnit.DAGTest.findLCA" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BinaryTreeTest" />
-        <item itemvalue="JUnit.BinaryTreeTest.testNodePredecessor" />
-        <item itemvalue="JUnit.BinaryTreeTest.testNullTree" />
-        <item itemvalue="JUnit.BinaryTreeTest.testOneNodeTree" />
-        <item itemvalue="JUnit.BinaryTreeTest.lca" />
+        <item itemvalue="JUnit.DAGTest.findLCA" />
+        <item itemvalue="JUnit.DAGTest" />
+        <item itemvalue="JUnit.DAGTest.testNodeThatDoesNotExist" />
+        <item itemvalue="JUnit.DAGTest.testLcaOnTheSameNode" />
+        <item itemvalue="JUnit.DAGTest.testOneNodeTree" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +311,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570019370438</updated>
-      <workItem from="1570019376353" duration="5809000" />
+      <workItem from="1570019376353" duration="5994000" />
+      <workItem from="1570624998755" duration="287000" />
+      <workItem from="1570901406646" duration="7000" />
+      <workItem from="1570902169045" duration="373000" />
+      <workItem from="1570921271739" duration="16000" />
+      <workItem from="1571222939287" duration="731000" />
     </task>
     <task id="LOCAL-00001" summary="-Completed Binary Tree data structure&#10;-Started work on LCA function">
       <created>1570020453923</created>
@@ -302,66 +346,101 @@
       <option name="project" value="LOCAL" />
       <updated>1570101336610</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="-Added more tests">
+      <created>1570116146918</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570116146919</updated>
+    </task>
+    <task id="LOCAL-00006" summary="-Implemented new DAG data structure">
+      <created>1571240115417</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571240115417</updated>
+    </task>
+    <task id="LOCAL-00007" summary="-Cleaning up DAG implementation&#10;-Adding few starter tests that test setting up a DAG">
+      <created>1571241192413</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571241192413</updated>
+    </task>
+    <task id="LOCAL-00008" summary="-Cleaning up DAG implementation again&#10;-Added more tests">
+      <created>1571242995311</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1571242995311</updated>
+    </task>
+    <task id="LOCAL-00009" summary="-Added lca test&#10;-Need to revise LCA algo">
+      <created>1571243635610</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1571243635610</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinaryTreeTest - 2019.10.03 at 12h 13m 50s.xml">
-      <configuration name="BinaryTreeTest" configurationId="JUnit" />
+    <history-entry file="DAGTest_findLCA - 2019.10.16 at 17h 33m 26s.xml">
+      <configuration name="DAGTest.findLCA" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryTreeTest_testOneNodeTree - 2019.10.03 at 12h 19m 31s.xml">
-      <configuration name="BinaryTreeTest.testOneNodeTree" configurationId="JUnit" />
+    <history-entry file="DAGTest_testNullTree - 2019.10.18 at 12h 56m 19s.xml">
+      <configuration name="DAGTest.testNullTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryTreeTest_testNullTree - 2019.10.03 at 12h 20m 07s.xml">
-      <configuration name="BinaryTreeTest.testNullTree" configurationId="JUnit" />
+    <history-entry file="DAGTest_testEmptyTree - 2019.10.18 at 12h 57m 25s.xml">
+      <configuration name="DAGTest.testEmptyTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryTreeTest - 2019.10.03 at 12h 20m 42s.xml">
-      <configuration name="BinaryTreeTest" configurationId="JUnit" />
+    <history-entry file="DAGTest_testEmptyTree - 2019.10.18 at 13h 00m 07s.xml">
+      <configuration name="DAGTest.testEmptyTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryTreeTest - 2019.10.03 at 16h 09m 45s.xml">
-      <configuration name="BinaryTreeTest" configurationId="JUnit" />
+    <history-entry file="DAGTest_testOneNodeTree - 2019.10.18 at 13h 02m 37s.xml">
+      <configuration name="DAGTest.testOneNodeTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryTreeTest_testNodePredecessor - 2019.10.03 at 16h 10m 31s.xml">
-      <configuration name="BinaryTreeTest.testNodePredecessor" configurationId="JUnit" />
+    <history-entry file="DAGTest_testOneNodeTree - 2019.10.18 at 13h 03m 20s.xml">
+      <configuration name="DAGTest.testOneNodeTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryTreeTest_testNodePredecessor - 2019.10.03 at 16h 11m 15s.xml">
-      <configuration name="BinaryTreeTest.testNodePredecessor" configurationId="JUnit" />
+    <history-entry file="DAGTest_testLcaOnTheSameNode - 2019.10.18 at 13h 04m 06s.xml">
+      <configuration name="DAGTest.testLcaOnTheSameNode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryTreeTest_testNodePredecessor - 2019.10.03 at 16h 12m 02s.xml">
-      <configuration name="BinaryTreeTest.testNodePredecessor" configurationId="JUnit" />
+    <history-entry file="DAGTest_testNodeThatDoesNotExist - 2019.10.18 at 13h 04m 39s.xml">
+      <configuration name="DAGTest.testNodeThatDoesNotExist" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryTreeTest - 2019.10.03 at 16h 13m 40s.xml">
-      <configuration name="BinaryTreeTest" configurationId="JUnit" />
+    <history-entry file="DAGTest_testNodeThatDoesNotExist - 2019.10.18 at 13h 05m 39s.xml">
+      <configuration name="DAGTest.testNodeThatDoesNotExist" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryTreeTest - 2019.10.03 at 16h 17m 04s.xml">
-      <configuration name="BinaryTreeTest" configurationId="JUnit" />
+    <history-entry file="DAGTest - 2019.10.18 at 13h 09m 45s.xml">
+      <configuration name="DAGTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5820000" />
+    <option name="totallyTimeSpent" value="18889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13113007" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.13113007" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info id="UI Designer" order="5" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291714" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3291714" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39954597" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3291714" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3291714" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -372,8 +451,39 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32995737" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.32995737" />
+      <window_info active="true" anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.32995737" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13113007" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291714" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39954597" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3291714" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3291714" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info active="true" anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.32995737" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -386,7 +496,32 @@
     <MESSAGE value="-Created Tree" />
     <MESSAGE value="-Finished lca algorithm" />
     <MESSAGE value="-Configured JUnit for testing in IntelliJ&#10;-Wrote first few tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Configured JUnit for testing in IntelliJ&#10;-Wrote first few tests" />
+    <MESSAGE value="-Added more tests" />
+    <MESSAGE value="-Implemented new DAG data structure" />
+    <MESSAGE value="-Cleaning up DAG implementation&#10;-Adding few starter tests that test setting up a DAG" />
+    <MESSAGE value="-Cleaning up DAG implementation again&#10;-Added more tests" />
+    <MESSAGE value="-Added lca test&#10;-Need to revise LCA algo" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Added lca test&#10;-Need to revise LCA algo" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinaryTreeTest.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/DAGTest.java</url>
+          <line>7</line>
+          <properties class="DAGTest" method="testNullTree">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -395,30 +530,60 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        <state relative-caret-position="184">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../College/AlgoAssignment2_hillaryterm/src/DirectedEdge.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="23">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="256" selection-start-line="256" selection-end-line="256" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="129" column="29" selection-start-line="129" selection-start-column="29" selection-end-line="129" selection-end-column="29" />
+          <folding>
+            <element signature="e#1329#1330#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1411#1412#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        <state relative-caret-position="-27">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/DAGTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="132" column="42" selection-start-line="132" selection-start-column="42" selection-end-line="132" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

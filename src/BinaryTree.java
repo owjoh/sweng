@@ -10,7 +10,6 @@ public class BinaryTree {
     }
 
     Node findLca(Node node, int node1, int node2) {
-
         //Recursion base case
         if(node == null) {
             return null;
